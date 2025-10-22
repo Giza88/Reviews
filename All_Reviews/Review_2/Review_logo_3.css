@@ -1,0 +1,50 @@
+/* page centering and font */
+body {
+  background: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* card container */
+.card {
+  background: #1F1F1F;
+  width: 250px;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* wrap SVG so we can give it background, padding and radius */
+.logo-wrapper {
+  background: red;
+  width: 100px;
+  margin: 0 auto 16px;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+
+/* ensure the SVG fills its container and is block-level */
+.logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* if your SVG has its own background, remove it or set it to transparent */
+}
+
+/* subtitle spacing */
+.subtitle {
+  margin-bottom: 16px;
+}
+
+/* link styling */
+.link {
+  color: #fff;
+  text-decoration: underline;
+}
+

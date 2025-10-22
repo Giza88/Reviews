@@ -1,0 +1,247 @@
+WEEK1Review-HTML-AnswerSheet
+
+Your Name: Stefan Gislason
+Date:24/07/2025
+
+================================================================================
+SECTIONA:MultipleChoiceQuestions(20marks)
+================================================================================
+
+Instructions :Write the letter (a, b, c, or d) of your answer for each question.
+
+1.What does HTML stand for?
+   a) Hyper Text Markup Language
+   b) High Tech Modern Language
+   c) Home Tool Markup Language
+   d) Hyperlink and Text Markup Language
+
+   Answer:  Hypertext Markup Language
+
+2. <h1>Welcome to My Website</h1><h1>About Us</h1>, how will it appear on the webpage?
+   a) The text will appear on the same line as large bold text: "Welcome to My Website About Us"
+   b) The two headings will appear on separate lines, each as large bold text
+   c) Only the first heading will be visible as large bold text
+   d) The text will appear in normal size, not as headings
+
+   Answer: B
+
+3. What does "href" stand for in HTML?
+   a) Hyperlink Reference
+   b) Hypertext Reference
+   c) Home Reference
+   d) Hyper Reference Format
+
+   Answer: A
+
+4. Which of the following websites would you definitely expect to use HTTPS instead of HTTP?
+   a) A simple blog about cooking recipes
+   b) An online banking website
+   c) A public news website
+   d) A weather forecast website
+
+   Answer: B
+
+5. What HTML attribute is used to specify the source of an image?
+   a) href
+   b) src
+   c) alt
+   d) title
+
+   Answer: B
+
+6. What is the purpose of the <head> section in HTML?
+   a) Contains the visible content
+   b) Contains metadata about the website
+   c) Creates links to be used for the internet
+   d) Adds images
+
+   Answer: B
+
+7. Which tag is used to create a bulleted list?
+   a) <ol>
+   b) <ul>
+   c) <li>
+   d) <list>
+
+   Answer: B
+
+8. What does the <i> tag do?
+   a) Makes text bold and italic
+   b) Makes text italic
+   c) Creates a link
+   d) Adds an image
+
+   Answer: B
+
+9. Which section of an HTML document contains the page title?
+   a) <body>
+   b) <head>
+   c) <title>
+   d) <html>
+
+   Answer: C
+
+10. What happens when a web browser receives HTML code from a website?
+    a) The browser stores the HTML code as a text file on your computer
+    b) The browser translates the HTML code into a visual webpage
+    c) The browser automatically downloads all images to your desktop
+    d) The browser converts the HTML into a video format
+
+    Answer: B
+
+================================================================================
+SECTION B: Code Correction (15 marks)
+================================================================================
+
+Instructions: Write the corrected HTML code for each question.
+
+11. Fix the missing opening tag:
+    Original: Welcome to my website</h1>
+
+    Corrected version:
+<h1> html
+Welcome to my website</h1>
+<p>This is my first paragraph</p>
+
+12. Fix the incorrect tag nesting:
+    Original: <p>This is a paragraph with <b>loud text</p></b>
+
+    Corrected version: 
+html
+<p>This is a paragraph with <b>loud text</b></p>
+
+13. Fix the image tag with missing alt attribute:
+    Original: <img src="bahamas-2015.jpg" />
+
+    Corrected version:13. 
+html
+<img src="bahamas-2015.jpg" alt="Sunset view in the Bahamas, 2015" />
+
+
+14. Fix the link tag with missing text:
+    Original: <a href="https://example.com"></a>
+
+    Corrected version:
+<a href="https://example.com">Visit Example</a>
+
+
+15. Fix the HTML structure:
+    Original: 
+    <body>
+      <h1>My Page</h1>
+    </body>
+    <html>
+    <head>
+      <title>My Website</title>
+    </head>
+
+    Corrected version:
+`<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>My Page</h1>
+  </body>
+</html>
+
+
+
+================================================================================
+SECTION C: Practical Tasks (25 marks)
+================================================================================
+
+16. Create a simple HTML document (10 marks):
+    Write a complete HTML document that includes:
+    - Proper DOCTYPE declaration
+    - HTML structure with head and body
+    - A page title
+    - A main heading
+    - A paragraph with some text
+    - A link to an external website
+
+Answer:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Website</title>
+  </head>
+  <body>
+    <h1>Welcome to My First Website</h1>
+    <p>This page was created as part of my HTML learning journey with Take2. I'm excited to explore coding and app development!</p>
+    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+  </body>
+</html>
+
+
+17. Create a list with images (8 marks):
+    Write HTML code to create:
+    - An unordered list with 2 items
+    - An image with proper src and alt attributes
+    - A heading above the list
+
+Answer:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Perks List</title>
+  </head>
+  <body>
+    <h2>Top Perks for Your Pup</h2>
+    <ul>
+      <li>Daily walks in the park</li>
+      <li>Grooming sessions every weekend</li>
+    </ul>
+    <img src="happy-dog.jpg" alt="A happy dog enjoying a walk in the park" />
+  </body>
+</html>
+
+
+18. Add comments and formatting (7 marks):
+    Write HTML code that includes:
+    - A heading
+    - A paragraph with bold and italic text
+    - An HTML comment explaining what the code does
+
+Answer:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formatting Example</title>
+  </head>
+  <body>
+    <!-- This page demonstrates basic formatting using HTML -->
+    <h1>My Awesome Page</h1>
+    <p>This is a paragraph with <b>bold</b> and <i>italic</i> text included.</p>
+  </body>
+</html>
+
+================================================================================
+SECTION D: Short Answer Questions (10 marks)
+================================================================================
+
+19. What is the purpose of the <!DOCTYPE html> declaration and where should it be placed? (3 marks)
+
+Answer: It tells the browser which version of HTML the page is written in.
+
+
+
+20. Explain the difference between <ul> and <ol> tags. When would you use each one? (3 marks)
+
+Answer: <ul> stands for unordered list. It’s used when the order of items doesn’t matter. Use <ul> for collections: features, options, ingredients, etc.
+<ol> stands for ordered list. It’s used when the order of items does matter. Use <ol> for sequences: instructions, rankings, timelines.
+
+21. What is the purpose of the <li> tag and where must it be used? (4 marks)
+
+Answer: <li> stands for list item
+
+It defines each entry inside a list, whether it’s bulleted (<ul>) or numbered (<ol>)
+
+================================================================================
+
+OFFICE USE ONLY:
+
+TOTAL MARKS: _____ / 65
+
+================================================================================ 
